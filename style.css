@@ -84,7 +84,7 @@ padding-top: 6px;
 
 
 h5 {
-font-family: 'Eina02-Semibold';
+font-family: 'Conv_Eina02-Semibold';
 font-size: 24pt;
 line-height:30pt;
 color:rgb(66, 0, 255);
@@ -92,24 +92,23 @@ color:rgb(66, 0, 255);
 
 
 h6{
-font-family: 'Eina02-Semibold';
+font-family: 'Conv_Eina02-Semibold';
 font-size: 14pt;
 line-height: 24pt;
 color:rgb(66, 0, 255);
 }
 
 h7{
-font-family: 'Eina02-Bold';
+font-family: 'Conv_Eina02-Bold';
 font-size: 80pt;
 color:rgb(66, 0, 255);
 }
 
 
-
 p {
-font-family: 'Eina02-Regular';
+font-family:'Conv_Eina02-Regular';
 font-size: 14pt;
-line-height: 24pt;
+line-height: 20pt;
 color:rgb(66, 0, 255);
 }
 
@@ -332,10 +331,11 @@ background-size: cover;
 background-position: center;
 }
 
-
+#about{
+	background-color:rgba(248, 249 , 255, 1);
+}
 
 .about{
-background-image: url(imagenes/banner-sobremi.jpg);
 background-size: cover;
 background-position: center;
 }
