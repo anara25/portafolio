@@ -1,0 +1,569 @@
+/*
+Version: 1.4
+Text Domain: Mi primer tema
+Tags: negro, blanco
+*/
+@font-face {
+	font-family: 'Conv_Gogoli-Regular';
+	src: url('fonts/Gogoli-Regular.eot');
+	src: local('☺'), url('fonts/Gogoli-Regular.woff') format('woff'), url('fonts/Gogoli-Regular.ttf') format('truetype'), url('fonts/Gogoli-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Eina02-Regular';
+	src: url('fonts/Eina02-Regular.eot');
+	src: local('☺'), url('fonts/Eina02-Regular.woff') format('woff'), url('fonts/Eina02-Regular.ttf') format('truetype'), url('fonts/Eina02-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Eina02-Semibold';
+	src: url('fonts/Eina02-Semibold.eot');
+	src: local('☺'), url('fonts/Eina02-Semibold.woff') format('woff'), url('fonts/Eina02-Semibold.ttf') format('truetype'), url('fonts/Eina02-Semibold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Eina02-Bold';
+	src: url('fonts/Eina02-Bold.eot');
+	src: local('☺'), url('fonts/Eina02-Bold.woff') format('woff'), url('fonts/Eina02-Bold.ttf') format('truetype'), url('fonts/Eina02-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {
+font-family: 'Conv_Eina02-Regular';
+font-size: 1.5rem;
+line-height: 1.2rem;
+letter-spacing: 0.09rem;
+color: white;
+}
+
+
+h1 {
+font-family: 'Conv_Gogoli-Regular';
+font-size:45pt;  
+line-height: 1.30;
+letter-spacing: 0.8pt;
+color:rgb(255, 255, 255);
+}
+
+
+h2 {
+font-family: 'Conv_Eina02-Regular';
+font-size: 15pt;
+line-height: 20pt;
+color:rgb(66, 0, 255);
+text-align:left;
+
+}
+
+
+h3 a {
+font-family: 'Conv_Eina02-Bold';
+font-size: 35pt;
+line-height: 25pt;
+color:rgb(66, 0, 255);
+text-decoration: none;
+}
+
+
+h4 {
+font-family: 'Conv_Eina02-Bold';
+font-size: 18pt;
+line-height: 20pt;
+color:rgb(66, 0, 255);
+padding-top: 6px;
+}
+
+
+h5 {
+font-family: 'Eina02-Semibold';
+font-size: 24pt;
+line-height:30pt;
+color:rgb(66, 0, 255);
+}
+
+
+h6{
+font-family: 'Eina02-Semibold';
+font-size: 14pt;
+line-height: 24pt;
+color:rgb(66, 0, 255);
+}
+
+h7{
+font-family: 'Eina02-Bold';
+font-size: 80pt;
+color:rgb(66, 0, 255);
+}
+
+
+
+p {
+font-family: 'Eina02-Regular';
+font-size: 14pt;
+line-height: 24pt;
+color:rgb(66, 0, 255);
+}
+
+a {
+color:rgba(212, 141, 248, 1);
+}
+
+#navigation h1 a{
+	background-image: url(imagenes/logo-ana.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 63px;
+	height: 48px;
+	display: block;
+	text-indent: -10000px;
+}
+
+#presentacion{
+background-color:rgba(248, 249 , 255, 1);
+	background-size: cover;
+    background-position: center;
+	}	
+
+
+.presentacion{
+	padding-top: 40px;
+}	
+
+.proyectos{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}	
+
+
+.descargar{
+	padding-bottom: 60px;
+	}
+	
+.menu-vertical{
+background-color:rgba(185, 184, 184, 1) ;
+}
+
+
+
+.bienvenida{
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+
+.llamada{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+
+.input-group .btn {
+    width: 200px;
+	height: 50px;
+}
+
+.cir1{
+padding-bottom: 0px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.cir2{
+padding-bottom: 0px;
+margin-top: 40px;
+text-align: center;
+	}
+
+.brand{
+padding-right: 0px;
+}
+
+.card{
+    background-color: initial;
+    border-radius: 0px;
+    border: none;
+}
+
+.titulo-txt{
+	padding-bottom: 40px;
+	--bs-gutter-x: 0rem;
+}
+.post-img div{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+header{
+	background-color:rgba(17, 19, 32, 1);
+}
+.derechos{
+	background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Conv_Eina02-Regular';
+	font-size: 13pt;
+    color: white;
+	margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-item:last-child .nav-link {
+	 border-right:none; 
+}
+
+.navbar-collapse { 
+    /*! flex-grow:0; */
+}
+
+
+.breadcrumbs{
+	padding-left: 0px;
+}
+.navbar{
+background-color:rgb(66, 0, 255);
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+
+.welcome{
+background-color:rgb(66, 0, 255);
+background-size: cover;
+background-position: center;
+}
+
+
+
+.welcome{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+
+#branding{
+	background-color:rgba(17, 19, 32, 1);
+}
+
+
+
+
+.contenido{
+
+padding-top: 20px;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 70px;
+}
+
+.contenide{
+
+	padding-top: 130px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 110px;
+	}
+
+
+.boton{
+padding-top: 25px;
+padding-bottom: 20px;
+
+}
+
+.muestra{
+margin-bottom: 0px;
+padding-bottom: 50px;
+padding-top: 70px;
+}
+
+
+.sobre{
+padding-bottom: 50px;
+}
+
+.trabajo{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.contenidu{
+padding-top: 60px;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 60px;
+}
+
+
+
+.espacio{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+.rombo1{
+padding-top: 40px;
+}
+
+.rombo2{
+	padding-top: 40px;
+	}
+
+.contenidx{
+padding-top: 50px;
+padding-bottom: 30px;
+}
+
+
+
+.barra-fo{
+background-image: url(imagenes/barra-fo.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+
+.about{
+background-image: url(imagenes/banner-sobremi.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+.cat{
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+.informacion{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	}
+
+.tipo{
+padding-bottom: 20px;
+}
+
+.tipo1{
+	padding-bottom: 20px;
+	padding-right: 24px;
+	}
+
+.principio{
+	padding-right: 0px;
+}
+
+.capsula1{
+padding-top: 40px;
+}
+
+.barra-d{
+	margin-right: 0px;
+	margin-left: 0px;
+	
+}
+
+.fot{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+border-bottom-style: solid;
+border-bottom-width: 10px;
+border-color: white;
+
+
+.barra-d{
+	margin-right: 0px;
+	margin-left: 0px;
+	border-bottom: white;
+	border-top: white;
+}
+
+
+
+
+.f1{
+padding-right: 90px
+}
+
+
+#destacados{
+	background-color:rgba(248, 249 , 255, 1);
+}
+
+#detallado{
+	background-color:rgba(248, 249 , 255, 1);
+}
+.encabezado{
+	padding-bottom: 1.5rem;
+	padding-top: 3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	background-color:rgba(248, 249 , 255, 1);
+}
+
+
+.footer{
+	padding-bottom: 5rem;
+	padding-top: 2.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	background-color:hwb(25 94% 2%);
+	
+}
+
+.head2 {
+align-items: center;
+margin-left: 0px;
+}
+
+.sectionb{
+	
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-left: 0px;
+}
+
+.sectionc{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 0px;
+}
+
+.sectiont{
+text-align: center;
+}
+
+
+.btn-success {
+	font-family: 'Conv_Eina02-Regular';
+	font-size: 15pt;
+	line-height: 15pt;	
+	background-color:rgba(66, 61,239, 1);
+	border:none;
+	border-radius: 50px;	
+	}
+
+
+
+.btn-success:hover {
+background-color:rgba(212, 141, 248, 1);
+}
+
+
+.dropdown-item{
+font-family: 'Conv_Eina02-Semibold';
+background-color:rgb(255, 255, 255);
+
+}	
+
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: white;
+	border-bottom: solid 1px white;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28250,250, 250, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: rgb(255, 255, 255);
+}
+#contenido {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+
+.insta{
+	border-right: solid 20px #00f0;
+	border-left: solid 20px #00f0;
+	}
+
+	
+.self{
+	border-right: solid 20px #00f0;
+	border-left: solid 20px #00f0;
+	}
+
+.fuera{
+	padding-top: 60px;
+	
+}
+
+.lista1{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.lista2{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.morada{
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.detalle {
+	border-right: solid 20px #00f0;
+	border-left: solid 20px #00f0;	}
+
+.palet{
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.instag{
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+
+@media (max-width: 480px) {
+	h11 {
+	text-align: center; } }
+
+
+
+@media (max-width: 480px) {
+	.detalle {
+		border-right: solid 20px #00f0;
+		border-left: solid 20px #00f0;	} }
+	
+
+@media (max-width: 480px) {	
+		.welcome{
+		background-size: 330%;}}
+
+@media (min-width:576px) and (max-width:767px){
+	
+}
+
+
+
+
+
+
+
+
+
+
+
