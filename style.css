@@ -64,6 +64,13 @@ text-align:left;
 
 }
 
+h3 {
+	font-family: 'Conv_Eina02-Bold';
+	font-size: 35pt;
+	line-height: 25pt;
+	color:rgb(66, 0, 255);
+	text-decoration: none;
+	}
 
 h3 a {
 font-family: 'Conv_Eina02-Bold';
@@ -73,16 +80,23 @@ color:rgb(66, 0, 255);
 text-decoration: none;
 }
 
-
 h4 {
 font-family: 'Conv_Eina02-Bold';
 font-size: 18pt;
-line-height: 20pt;
 color:rgb(66, 0, 255);
 padding-top: 6px;
+
 }
 
+h4 a {
+font-family: 'Conv_Eina02-Bold';
+font-size: 25pt;
+color:rgb(66, 0, 255);
+padding-top: 6px;
+text-decoration: none;
+}
 
+          
 h5 {
 font-family: 'Conv_Eina02-Semibold';
 font-size: 24pt;
@@ -113,7 +127,7 @@ color:rgb(66, 0, 255);
 }
 
 a {
-color:rgba(212, 141, 248, 1);
+color:rgb(66, 0, 255);
 }
 
 #navigation h1 a{
@@ -139,7 +153,7 @@ background-color:rgba(248, 249 , 255, 1);
 
 .proyectos{
 	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 }	
 
 
@@ -169,17 +183,6 @@ background-color:rgba(185, 184, 184, 1) ;
 	height: 50px;
 }
 
-.cir1{
-padding-bottom: 0px;
-margin-bottom: 40px;
-text-align: center;
-}
-
-.cir2{
-padding-bottom: 0px;
-margin-top: 40px;
-text-align: center;
-	}
 
 .brand{
 padding-right: 0px;
@@ -526,10 +529,6 @@ background-color:rgb(255, 255, 255);
 	border-right: solid 20px #00f0;
 	border-left: solid 20px #00f0;	}
 
-.palet{
-	padding-top: 40px;
-	padding-bottom: 60px;
-}
 
 .instag{
 	padding-top:15px;
