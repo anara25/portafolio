@@ -75,7 +75,7 @@ h3 {
 h3 a {
 font-family: 'Conv_Eina02-Bold';
 font-size: 35pt;
-line-height: 25pt;
+line-height: 35pt;
 color:rgb(66, 0, 255);
 text-decoration: none;
 }
@@ -165,7 +165,9 @@ background-color:rgba(248, 249 , 255, 1);
 background-color:rgba(185, 184, 184, 1) ;
 }
 
-
+.segundotexto{
+	padding-bottom: 30px;
+	}
 
 .bienvenida{
 	padding-top: 20px;
@@ -453,9 +455,8 @@ text-align: center;
 
 
 .btn-success {
-	font-family: 'Conv_Eina02-Regular';
+	font-family: 'Conv_Eina02-Semibold';
 	font-size: 15pt;
-	line-height: 15pt;	
 	background-color:rgba(66, 61,239, 1);
 	border:none;
 	border-radius: 50px;	
